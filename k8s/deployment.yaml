@@ -12,6 +12,7 @@ spec:
       containers:
       - name: microservice
         image: stevesloka/microservice-sample:0.0.1
+        imagePullPolicy: Always
         env:
           - name: SERVICE
             valueFrom:
